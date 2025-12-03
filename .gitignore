@@ -1,0 +1,22 @@
+# IGNORE DATA FOLDERS
+train/
+test/
+
+# IGNORE JUPYTER NOTEBOOKS
+*.ipynb
+
+# IGNORE PYTHON CACHE
+__pycache__/
+*.pyc
+
+# IGNORE LARGE WEIGHTS
+*.pth
+*.pt
+*.h5
+*.pkl
+
+# Don't ignore model_utils.py, app.py, nutrition.csv, requirements.txt
+!model_utils.py
+!app.py
+!nutrition.csv
+!requirements.txt
